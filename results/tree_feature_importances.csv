@@ -1,0 +1,132 @@
+Feature,Importance
+num__sqft_living,0.6679681886903013
+cat__statezip_WA 98199,0.05214188976455155
+num__yr_built,0.036905426106501715
+cat__city_Seattle,0.03167106347982857
+cat__statezip_WA 98031,0.030117912591805084
+cat__statezip_WA 98004,0.026780932188059752
+num__sqft_above,0.025066113288092967
+num__view,0.021726408184012894
+num__sqft_lot,0.020972371505554536
+cat__city_Bellevue,0.015034877976484989
+cat__statezip_WA 98040,0.010923413008612456
+num__bathrooms,0.010806048726733491
+cat__city_Redmond,0.00758068003078408
+num__sqft_basement,0.007325629210704698
+cat__city_Kirkland,0.0053835716145030806
+num__bedrooms,0.005209687135086017
+cat__statezip_WA 98112,0.005020679512444821
+cat__city_Issaquah,0.004294446940226354
+cat__city_Sammamish,0.0038977852070739265
+num__condition,0.0016364801133106793
+cat__statezip_WA 98033,0.0015231740507029615
+cat__statezip_WA 98178,0.0012785827478665225
+cat__statezip_WA 98106,0.0012649001461359772
+cat__city_Auburn,0.001144247527922524
+num__floors,0.0011002315733577048
+cat__city_Kent,0.0010372624919479712
+cat__city_Woodinville,0.0007830490770584859
+cat__statezip_WA 98034,0.0004535758085288896
+cat__statezip_WA 98126,0.0002784475400485259
+num__yr_renovated,0.00026554330166501635
+cat__city_Shoreline,0.00024170773340145848
+cat__statezip_WA 98006,0.00016567272669096915
+cat__city_Carnation,0.0
+cat__city_Des Moines,0.0
+cat__city_Enumclaw,0.0
+cat__city_Milton,0.0
+cat__city_Mercer Island,0.0
+cat__city_Medina,0.0
+cat__city_Maple Valley,0.0
+cat__city_Lake Forest Park,0.0
+cat__city_Kenmore,0.0
+cat__city_Fall City,0.0
+cat__city_Pacific,0.0
+cat__city_Renton,0.0
+cat__city_Ravensdale,0.0
+cat__city_Preston,0.0
+cat__city_SeaTac,0.0
+cat__city_Skykomish,0.0
+cat__city_Newcastle,0.0
+cat__city_North Bend,0.0
+cat__city_Normandy Park,0.0
+cat__city_Tukwila,0.0
+cat__city_Snoqualmie Pass,0.0
+cat__city_Snoqualmie,0.0
+cat__city_Yarrow Point,0.0
+cat__statezip_WA 98001,0.0
+cat__statezip_WA 98002,0.0
+cat__statezip_WA 98003,0.0
+cat__city_Covington,0.0
+cat__city_Federal Way,0.0
+cat__city_Burien,0.0
+cat__city_Bothell,0.0
+cat__city_Clyde Hill,0.0
+cat__city_Duvall,0.0
+cat__city_Black Diamond,0.0
+num__waterfront,0.0
+cat__city_Algona,0.0
+cat__statezip_WA 98022,0.0
+cat__statezip_WA 98019,0.0
+cat__statezip_WA 98014,0.0
+cat__statezip_WA 98011,0.0
+cat__statezip_WA 98010,0.0
+cat__statezip_WA 98008,0.0
+cat__statezip_WA 98007,0.0
+cat__statezip_WA 98005,0.0
+cat__city_Vashon,0.0
+cat__statezip_WA 98032,0.0
+cat__statezip_WA 98029,0.0
+cat__statezip_WA 98030,0.0
+cat__statezip_WA 98028,0.0
+cat__statezip_WA 98023,0.0
+cat__statezip_WA 98027,0.0
+cat__statezip_WA 98024,0.0
+cat__statezip_WA 98050,0.0
+cat__statezip_WA 98051,0.0
+cat__statezip_WA 98052,0.0
+cat__statezip_WA 98053,0.0
+cat__statezip_WA 98055,0.0
+cat__statezip_WA 98056,0.0
+cat__statezip_WA 98057,0.0
+cat__statezip_WA 98058,0.0
+cat__statezip_WA 98059,0.0
+cat__statezip_WA 98065,0.0
+cat__statezip_WA 98068,0.0
+cat__statezip_WA 98038,0.0
+cat__statezip_WA 98039,0.0
+cat__statezip_WA 98042,0.0
+cat__statezip_WA 98045,0.0
+cat__statezip_WA 98047,0.0
+cat__statezip_WA 98077,0.0
+cat__statezip_WA 98075,0.0
+cat__statezip_WA 98074,0.0
+cat__statezip_WA 98072,0.0
+cat__statezip_WA 98070,0.0
+cat__statezip_WA 98105,0.0
+cat__statezip_WA 98103,0.0
+cat__statezip_WA 98092,0.0
+cat__statezip_WA 98109,0.0
+cat__statezip_WA 98115,0.0
+cat__statezip_WA 98116,0.0
+cat__statezip_WA 98117,0.0
+cat__statezip_WA 98118,0.0
+cat__statezip_WA 98107,0.0
+cat__statezip_WA 98108,0.0
+cat__statezip_WA 98102,0.0
+cat__statezip_WA 98125,0.0
+cat__statezip_WA 98122,0.0
+cat__statezip_WA 98119,0.0
+cat__statezip_WA 98133,0.0
+cat__statezip_WA 98146,0.0
+cat__statezip_WA 98148,0.0
+cat__statezip_WA 98136,0.0
+cat__statezip_WA 98144,0.0
+cat__statezip_WA 98166,0.0
+cat__statezip_WA 98155,0.0
+cat__statezip_WA 98177,0.0
+cat__statezip_WA 98168,0.0
+cat__statezip_WA 98188,0.0
+cat__statezip_WA 98198,0.0
+cat__statezip_WA 98288,0.0
+cat__statezip_WA 98354,0.0

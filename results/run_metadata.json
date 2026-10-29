@@ -1,0 +1,45 @@
+{
+  "source_file": "modified_data.csv",
+  "data_description": "User-supplied 2014 Washington State property listing dataset",
+  "total_rows": 4600,
+  "positive_price_rows": 4551,
+  "zero_or_missing_price_rows_removed": 49,
+  "duplicate_rows_removed": 0,
+  "train_rows": 3640,
+  "test_rows": 911,
+  "test_size": 0.2,
+  "random_state": 42,
+  "cv_folds": 5,
+  "numerical_features": [
+    "bedrooms",
+    "bathrooms",
+    "sqft_living",
+    "sqft_lot",
+    "floors",
+    "waterfront",
+    "view",
+    "condition",
+    "sqft_above",
+    "sqft_basement",
+    "yr_built",
+    "yr_renovated"
+  ],
+  "categorical_features": [
+    "city",
+    "statezip"
+  ],
+  "excluded_fields": {
+    "price_per_sqft": "TARGET LEAKAGE: calculated from price / sqft_living",
+    "street": "specific address / near-unique ID, high-cardinality",
+    "date": "not used in this initial historical cross-sectional baseline"
+  },
+  "target": "price",
+  "target_units": "USD",
+  "tree_tuning_criterion": "cross-validation mean absolute error",
+  "best_tree_hyperparameters": {
+    "model__max_depth": 12,
+    "model__min_samples_leaf": 10
+  },
+  "test_metric_note": "Metrics calculated on ALL held-out test records; scatter plot is zoomed.",
+  "unusually_high_price_max_retained": 26590000.0
+}
