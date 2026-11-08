@@ -1,0 +1,23 @@
+{
+  "original_rows": 4600,
+  "duplicates_removed": 0,
+  "nonpositive_or_missing_target_removed": 49,
+  "usable_rows": 4551,
+  "training_rows": 3640,
+  "test_rows": 911,
+  "split_seed": 42,
+  "cv_seed": 2026,
+  "cv_folds": 5,
+  "selection_metric": "training-only five-fold mean absolute error",
+  "selected_models": {
+    "linear": "Linear log + cap 99.5%",
+    "tree": "Tree median depth 12 leaf 5"
+  },
+  "caveat": "This held-out test set had already been examined in previous experiments. Treat test results as exploratory rather than untouched confirmation.",
+  "target": "price (USD)",
+  "not_used": [
+    "price_per_sqft",
+    "street",
+    "date"
+  ]
+}

@@ -1,0 +1,32 @@
+CSV: /mnt/data/House_Price_Prediction_Full_Tree/data/modified_data.csv 
+Rows: {'original_rows': 4600, 'duplicates_removed': 0, 'nonpositive_or_missing_target_removed': 49, 'usable_rows': 4551} 
+Training: 3640 Test: 911
+Excluded from features: price_per_sqft (target leakage), street, date
+Cross-validation: five folds on training rows only. Primary selection metric: MAE.
+
+Linear original                  CV MAE $    146,579   CV R² 0.422
+Linear standardized              CV MAE $    122,147   CV R² 0.485
+Linear log + cap 99.5%           CV MAE $     99,707   CV R² 0.533
+Linear log + cap 99.9%           CV MAE $    100,390   CV R² 0.533
+Tree original                    CV MAE $    162,070   CV R² 0.231
+Tree median depth 10 leaf 10     CV MAE $    145,396   CV R² 0.360
+Tree median depth 12 leaf 5      CV MAE $    140,763   CV R² 0.380
+
+Selected using training CV: {'linear': 'Linear log + cap 99.5%', 'tree': 'Tree median depth 12 leaf 5'}
+
+TEST results (exploratory: user previously examined the test set):
+                       Model     MAE_USD    RMSE_USD    R2  Median_AE_USD  Max_Prediction_Cap_USD
+            Linear original 139,638.888 232,409.068 0.637     92,667.402                     NaN
+              Tree original 148,648.650 279,707.324 0.474     88,523.182                     NaN
+     Linear log + cap 99.5%  94,246.933 194,069.388 0.747     53,907.354           2,400,000.000
+Tree median depth 12 leaf 5 127,106.779 235,914.979 0.626     77,245.415                     NaN
+
+Complete Decision Tree visualization generated:
+  Nodes: 575 | Leaves: 288 | Depth: 12
+  Full SVG : /mnt/data/House_Price_Prediction_Full_Tree/results/complete_decision_tree.svg
+  Full PDF : /mnt/data/House_Price_Prediction_Full_Tree/results/complete_decision_tree.pdf
+  Open HTML: /mnt/data/House_Price_Prediction_Full_Tree/results/open_complete_decision_tree.html
+  Preview  : /mnt/data/House_Price_Prediction_Full_Tree/results/decision_tree_preview.png
+  All rules: /mnt/data/House_Price_Prediction_Full_Tree/results/complete_decision_tree_rules.txt
+
+Results saved in: /mnt/data/House_Price_Prediction_Full_Tree/results
